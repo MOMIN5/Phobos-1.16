@@ -22,8 +22,9 @@ dependencies {
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation 'club.minnced:java-discord-rpc:2.0.2'
+	compile 'club.minnced:java-discord-rpc:2.0.2'
 	include 'club.minnced:java-discord-rpc:2.0.2'
+	
 	//modImplementation "com.github.minndevelopment:java-discord-rpc:2.0.2"
 	//include "com.github.minndevelopment:java-discord-rpc:2.0.2"
 
