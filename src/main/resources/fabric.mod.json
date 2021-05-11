@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "phobos_16",
+  "version": "1.9.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Phobos 1.16",
+  "description": "3arthh4ck 1.12.2 ported to 1.16",
   "authors": [
-    "Me!"
+    "3arthqu4ke",
+    "MOMIN5"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/MOMIN5",
+    "sources": "https://github.com/MOMIN5/Phobos-1.16"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/phobos_16/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.earth.phobos.Phobos"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "phobos_16.mixins.json"
   ],
 
   "depends": {
