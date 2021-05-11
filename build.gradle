@@ -11,6 +11,7 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
+	jcenter()
 }
 
 dependencies {
@@ -20,6 +21,14 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	modImplementation 'club.minnced:java-discord-rpc:2.0.2'
+	include 'club.minnced:java-discord-rpc:2.0.2'
+	//modImplementation "com.github.minndevelopment:java-discord-rpc:2.0.2"
+	//include "com.github.minndevelopment:java-discord-rpc:2.0.2"
+
+	modImplementation "com.googlecode.json-simple:json-simple:1.1.1"
+	include "com.googlecode.json-simple:json-simple:1.1.1"
 
 }
 
@@ -33,7 +42,6 @@ processResources {
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.encoding = "UTF-8"
-
 
 	def targetVersion = 8
 	if (JavaVersion.current().isJava9Compatible()) {
@@ -66,6 +74,6 @@ publishing {
 	}
 
 	repositories {
-
+		jcenter()
 	}
 }

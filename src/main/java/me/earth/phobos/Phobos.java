@@ -6,7 +6,6 @@ public class Phobos implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		System.out.println("My cock is HUGE");
-
 	}
 
 }
