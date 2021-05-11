@@ -8,6 +8,7 @@ classes/
 # eclipse
 
 *.launch
+.metadata/
 
 # idea
 
