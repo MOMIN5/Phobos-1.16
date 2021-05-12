@@ -1,6 +1,5 @@
 package me.earth.phobos.features;
 
-import me.earth.phobos.Phobos;
 import me.earth.phobos.features.modules.Module;
 import me.earth.phobos.features.setting.Setting;
 import me.earth.phobos.util.Util;

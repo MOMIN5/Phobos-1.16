@@ -3,9 +3,7 @@ package me.earth.phobos.features.setting;
 import com.google.common.base.Converter;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonPrimitive;
-import net.java.games.input.Keyboard;
 import net.minecraft.client.util.InputUtil;
-import org.lwjgl.glfw.GLFW;
 
 public class Bind {
     private int key;

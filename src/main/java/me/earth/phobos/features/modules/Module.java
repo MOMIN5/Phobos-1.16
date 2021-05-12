@@ -5,7 +5,6 @@ import me.earth.phobos.event.events.ClientEvent;
 import me.earth.phobos.features.Feature;
 import me.earth.phobos.features.setting.Bind;
 import me.earth.phobos.features.setting.Setting;
-import me.earth.phobos.util.Util;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
