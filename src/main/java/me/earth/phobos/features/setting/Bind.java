@@ -56,7 +56,7 @@ public class Bind {
             }
             int key = -1;
             try {
-                key = Integer.parseInt("");
+                key = Integer.parseInt(s);
             } catch (Exception exception) {
             }
             if (key == 0) {
