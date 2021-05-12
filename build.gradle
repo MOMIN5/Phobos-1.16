@@ -12,6 +12,10 @@ group = project.maven_group
 
 repositories {
 	jcenter()
+	maven {
+		url = 'https://jitpack.io'
+		mavenCentral()
+	}
 }
 
 dependencies {
@@ -20,13 +24,14 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
+	// this should work idk lol
 	compile 'club.minnced:java-discord-rpc:2.0.2'
 	include 'club.minnced:java-discord-rpc:2.0.2'
-	
-	//modImplementation "com.github.minndevelopment:java-discord-rpc:2.0.2"
-	//include "com.github.minndevelopment:java-discord-rpc:2.0.2"
+
+	// bruh i realised phobos uses forges event system bruh this is gonna be pain
+	modImplementation 'com.github.ZeroMemes:Alpine:1.5'
+	include 'com.github.ZeroMemes:Alpine:1.5'
+
 
 	modImplementation "com.googlecode.json-simple:json-simple:1.1.1"
 	include "com.googlecode.json-simple:json-simple:1.1.1"
@@ -75,6 +80,5 @@ publishing {
 	}
 
 	repositories {
-		jcenter()
 	}
 }

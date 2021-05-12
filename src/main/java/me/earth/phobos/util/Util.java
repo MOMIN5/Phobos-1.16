@@ -1,4 +1,8 @@
 package me.earth.phobos.util;
 
-public class Util {
+
+import net.minecraft.client.MinecraftClient;
+
+public interface Util {
+    MinecraftClient mc = MinecraftClient.getInstance();
 }
