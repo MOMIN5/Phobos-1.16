@@ -19,4 +19,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-![preview](https://i.ibb.co/tD3sDhX/222-1.png)
+![preview](https://i.ibb.co/tD3sDhX/222-1.png).
