@@ -1,8 +1,3 @@
-# Automatically build the project and run any configured tests for every push
-# and submitted pull request. This can help catch issues that only occur on
-# certain platforms or Java versions, and provides a first line of defence
-# against bad commits.
-
 name: build
 on: [pull_request, push]
 
@@ -10,13 +5,13 @@ jobs:
   build:
     strategy:
       matrix:
-        # Use these Java versions
+      
         java: [
           1.8,  # Minimum supported by Minecraft
           11,   # Current Java LTS
           15    # Latest version
         ]
-        # and run on both Linux and Windows
+        
         os: [ubuntu-20.04, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
