@@ -1,6 +1,6 @@
 # Phobos for 1.16
 
-Phobos for 1.16 - Ported Phobos for fabric 1.16
+Phobos for 1.16 - Ported Phobos for fabric 1.16. ReadMe thanks to Goztb22
 
 ## Usage
 
