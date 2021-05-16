@@ -1,8 +1,20 @@
-# Phobos-1.16
+`# Phobos for 1.16
 
-so the basic idea will be porting phobos to 1.16 fabric
+Phobos for 1.16 - Ported Phobos for fabric 1.16
 
-ik phobos has a lot of chinese code and modules so i will be only porting the good ones or the one people use
+## Usage
 
-also im bad at making readmes lol
-so if someone can pull request a better one then yes
+
+
+```bash
+not out yet
+```
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+![preview](https://i.ibb.co/tD3sDhX/222-1.png)`
