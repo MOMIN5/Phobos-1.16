@@ -9,7 +9,10 @@ Phobos for 1.16 - Ported Phobos for fabric 1.16. ReadMe thanks to Goztb22
 
 
 ```bash
-not out yet
+Put Phobos-1.16-main on desktop or anywhere u want
+Then go to this folder
+Open cmd from this folder
+Type gradlew build
 ```
 
 
